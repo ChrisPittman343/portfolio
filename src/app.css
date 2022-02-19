@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	@apply text-slate-900;
+}
+
+h1 {
+	@apply font-serif;
+}
