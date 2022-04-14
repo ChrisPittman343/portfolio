@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Nav from '$lib/nav/Nav.svelte';
-	import Footer from '$lib/Footer.svelte';
+	import Nav from '$lib/layout/Nav.svelte';
+	import Footer from '$lib/layout/Footer.svelte';
 	import '../app.css';
 </script>
 
@@ -9,9 +9,7 @@
 </svelte:head>
 
 <Nav />
-
 <main class="scroll-smooth">
 	<slot />
 </main>
-
 <Footer />

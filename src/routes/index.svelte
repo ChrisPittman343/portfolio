@@ -3,9 +3,9 @@
 </script>
 
 <script lang="ts">
-	import Hello from '$lib/sections/Hello.svelte';
-	import About from '$lib/sections/About.svelte';
-	import Projects from '$lib/sections/Projects.svelte';
+	import Hello from '$lib/home/Hello.svelte';
+	import About from '$lib/home/About.svelte';
+	import Projects from '$lib/home/Projects.svelte';
 </script>
 
 <div class="min-h-screen">
