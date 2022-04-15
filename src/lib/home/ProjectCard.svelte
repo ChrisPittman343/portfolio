@@ -6,6 +6,7 @@
 
 <a
 	href={project.href}
+	target="_blank"
 	class="rounded-md py-4 px-8 flex flex-col max-w-sm shadow-md bg-white gap-y-4 border-[1px] border-slate-200 
             transition-all ease-linear hover:shadow-lg group w-full"
 >

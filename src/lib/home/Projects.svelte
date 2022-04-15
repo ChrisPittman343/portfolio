@@ -11,19 +11,19 @@
 			iconName: 'rankEm.svg',
 			color: '#5364C9'
 		},
-		{
-			name: 'process.physics',
-			description: 'Physics tutoring site that focuses on high quality video explanations',
-			href: '/',
-			workInProgress: true,
-			iconName: 'default.jpg',
-			color: '#30ABF1'
-		},
+		// {
+		// 	name: 'process.physics',
+		// 	description: 'Physics tutoring site that focuses on high quality video explanations',
+		// 	href: '/',
+		// 	workInProgress: true,
+		// 	iconName: 'default.jpg',
+		// 	color: '#30ABF1'
+		// },
 		{
 			name: 'Grindset',
 			description:
 				'Mobile app that helps you keep track of and maintain streaks of healthy activities',
-			href: '/',
+			href: 'https://github.com/ChrisPittman343/grindset',
 			workInProgress: true,
 			iconName: 'default.jpg',
 			color: '#E42D22'
@@ -31,27 +31,27 @@
 		{
 			name: 'pxls',
 			description: 'Tool for getting the color palette of pixel art',
-			href: '/',
+			href: 'https://pxls.vercel.app/',
 			workInProgress: true,
-			iconName: 'default.jpg',
+			iconName: 'pxls.png',
 			color: '#1f1f1f'
-		},
-		{
-			name: 'Taskee',
-			description: 'Minimal Chrome extension for managing your to-dos.',
-			href: '/',
-			workInProgress: true,
-			iconName: 'default.jpg',
-			color: '#10b981'
-		},
-		{
-			name: 'Deskercise',
-			description: 'Simple mobile app that reminds you to take care of your wrists when working',
-			href: '/',
-			workInProgress: true,
-			iconName: 'default.jpg',
-			color: '#10b981'
 		}
+		// {
+		// 	name: 'Taskee',
+		// 	description: 'Minimal Chrome extension for managing your to-dos.',
+		// 	href: '/',
+		// 	workInProgress: true,
+		// 	iconName: 'default.jpg',
+		// 	color: '#10b981'
+		// },
+		// {
+		// 	name: 'Deskercise',
+		// 	description: 'Simple mobile app that reminds you to take care of your wrists when working',
+		// 	href: '/',
+		// 	workInProgress: true,
+		// 	iconName: 'default.jpg',
+		// 	color: '#10b981'
+		// }
 	];
 </script>
 
