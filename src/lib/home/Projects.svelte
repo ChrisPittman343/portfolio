@@ -6,7 +6,7 @@
 		{
 			name: 'RankEm',
 			description: 'Platform for ranking options against one another',
-			href: 'https://rankem.vercel.app/dashboard',
+			href: 'https://rankem.vercel.app/',
 			workInProgress: true,
 			iconName: 'rankEm.svg',
 			color: '#5364C9'
