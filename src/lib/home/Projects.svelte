@@ -7,6 +7,7 @@
 			name: 'RankEm',
 			description: 'Platform for ranking options against one another',
 			href: 'https://rankem.vercel.app/',
+			github: 'https://github.com/ChrisPittman343/rank-em',
 			workInProgress: true,
 			iconName: 'rankEm.svg',
 			color: '#5364C9'
@@ -24,6 +25,7 @@
 			description:
 				'Mobile app that helps you keep track of and maintain streaks of healthy activities',
 			href: 'https://github.com/ChrisPittman343/grindset',
+			github: 'https://github.com/ChrisPittman343/grindset',
 			workInProgress: true,
 			iconName: 'default.jpg',
 			color: '#E42D22'
@@ -32,9 +34,19 @@
 			name: 'pxls',
 			description: 'Tool for getting the color palette of pixel art',
 			href: 'https://pxls.vercel.app/',
+			github: 'https://github.com/ChrisPittman343/pxls',
 			workInProgress: true,
 			iconName: 'pxls.png',
 			color: '#1f1f1f'
+		},
+		{
+			name: 'Lyrik',
+			description: 'Lyric guessing game for popular songs',
+			href: 'https://lyrik.vercel.app/',
+			github: 'https://github.com/ChrisPittman343/lyrik',
+			workInProgress: true,
+			iconName: 'lyrik.png',
+			color: '#F1D765'
 		}
 		// {
 		// 	name: 'Taskee',

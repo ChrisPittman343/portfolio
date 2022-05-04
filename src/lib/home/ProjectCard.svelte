@@ -7,7 +7,7 @@
 <a
 	href={project.href}
 	target="_blank"
-	class="rounded-md py-4 px-8 flex flex-col max-w-sm shadow-md bg-white gap-y-4 border-[1px] border-slate-200 
+	class="relative rounded-md py-4 px-8 flex flex-col max-w-sm shadow-md bg-white gap-y-4 border-[1px] border-slate-200 
             transition-all ease-linear hover:shadow-lg group w-full"
 >
 	<div class="flex items-center justify-between">
@@ -31,4 +31,17 @@
 		{/if} -->
 	</div>
 	{project.description}
+
+	<a
+		on:click|stopPropagation
+		href={project.github}
+		class="text-xs absolute top-4 right-4"
+		target="_blank"
+	>
+		<img
+			src="/icons/github.svg"
+			alt="Github"
+			class="w-5 aspect-square transition-opacity opacity-40 hover:opacity-100"
+		/>
+	</a>
 </a>
