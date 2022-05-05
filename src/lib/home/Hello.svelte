@@ -10,7 +10,7 @@
 			<span class="text-7xl hidden sm:block lg:text-9xl">👋</span>
 		</div>
 		<h2 class="text-xl lg:text-3xl">
-			I'm a first year Web &amp; Mobile Computing student at RIT who loves web development, front to
+			I'm a Web &amp; Mobile Computing student at RIT who absolutely loves web development, front to
 			back.
 		</h2>
 		<div class="flex gap-x-6 justify-end">
@@ -29,7 +29,7 @@
 
 <style lang="postcss">
 	#intro {
-		background-image: url('/abstract.jpg');
+		background-image: url('/abstract_reduced.jpg');
 	}
 	a img {
 		@apply w-7 aspect-square transition-opacity opacity-60;

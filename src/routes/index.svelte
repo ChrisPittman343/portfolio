@@ -11,5 +11,6 @@
 <div class="min-h-screen">
 	<Hello />
 	<About />
+	<hr class="max-w-5xl m-auto" />
 	<Projects />
 </div>

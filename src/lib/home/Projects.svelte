@@ -48,22 +48,6 @@
 			iconName: 'lyrik.png',
 			color: '#F1D765'
 		}
-		// {
-		// 	name: 'Taskee',
-		// 	description: 'Minimal Chrome extension for managing your to-dos.',
-		// 	href: '/',
-		// 	workInProgress: true,
-		// 	iconName: 'default.jpg',
-		// 	color: '#10b981'
-		// },
-		// {
-		// 	name: 'Deskercise',
-		// 	description: 'Simple mobile app that reminds you to take care of your wrists when working',
-		// 	href: '/',
-		// 	workInProgress: true,
-		// 	iconName: 'default.jpg',
-		// 	color: '#10b981'
-		// }
 	];
 </script>
 
