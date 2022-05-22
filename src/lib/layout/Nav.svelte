@@ -2,8 +2,10 @@
 	import NavLink from './NavLink.svelte';
 </script>
 
-<nav class="fixed top-0 w-full p-3 flex justify-center gap-x-12 backdrop-blur bg-white/50">
-	<NavLink href="/#intro">Intro</NavLink>
-	<NavLink href="/#about">About</NavLink>
+<nav
+	class="fixed top-0 w-full md:w-fit py-3 pl-4 pr-8 flex shadow
+		justify-center gap-x-8 backdrop-blur bg-white z-10 md:rounded-br-md"
+>
+	<NavLink href="/#intro">Chris Pittman</NavLink>
 	<NavLink href="/#projects">Projects</NavLink>
 </nav>

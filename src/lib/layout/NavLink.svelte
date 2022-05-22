@@ -2,4 +2,4 @@
 	export let href: string;
 </script>
 
-<a {href} class="text-lg transition-all text-slate-900 hover:underline"><slot /></a>
+<a {href} class=" transition-all text-slate-600 hover:text-slate-900"><slot /></a>

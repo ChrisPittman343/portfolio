@@ -53,7 +53,7 @@
 
 <section
 	id="projects"
-	class="max-w-7xl min-h-screen m-auto p-4 pt-20 flex flex-col items-center gap-y-8"
+	class="max-w-6xl min-h-screen m-auto p-4 pt-20 flex flex-col items-center gap-y-8"
 >
 	<h1 class="text-3xl">Projects</h1>
 	<h2 class="text-xl px-8">Here are some of my favorite projects I am and have been working on.</h2>
