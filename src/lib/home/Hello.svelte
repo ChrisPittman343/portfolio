@@ -25,6 +25,13 @@
 			</a>
 		</div>
 	</div>
+
+	<a
+		href="/#projects"
+		class="absolute bottom-4 left-1/2 -translate-x-1/2 bg-white items-center px-4 py-1 rounded shadow text-lg"
+	>
+		Projects ⮟
+	</a>
 </section>
 
 <style lang="postcss">

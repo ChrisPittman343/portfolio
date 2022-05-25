@@ -25,19 +25,21 @@
 			>
 				{project.name}
 			</span>
+			{#if project.workInProgress}
+				<span class="text-slate-400 text-sm"> WIP </span>
+			{/if}
 		</div>
-		<!-- {#if project.workInProgress}
-			<span class="text-slate-400 text-xs "> In Progress </span>
-		{/if} -->
 	</div>
 	{project.description}
 
-	<a
-		class="absolute text-xs top-4 right-4 transition-opacity opacity-40 hover:opacity-100"
-		on:click|stopPropagation
-		href={project.github}
-		target="_blank"
-	>
-		<img src="/icons/github.svg" alt="Github" class="w-5 aspect-square" />
-	</a>
+	{#if project.github}
+		<a
+			class="absolute text-xs top-4 right-4 transition-opacity opacity-40 hover:opacity-100"
+			on:click|stopPropagation
+			href={project.github}
+			target="_blank"
+		>
+			<img src="/icons/github.svg" alt="Github" class="w-5 aspect-square" />
+		</a>
+	{/if}
 </a>

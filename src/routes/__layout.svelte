@@ -8,7 +8,6 @@
 	<title>Chris Pittman - Portfolio</title>
 </svelte:head>
 
-<Nav />
 <main class="scroll-smooth">
 	<slot />
 </main>
